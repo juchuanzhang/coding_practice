@@ -48,16 +48,19 @@
 	"buffers":
 	[
 		{
-			"file": "chapter5_4.py",
+			"contents": "#include \"stdio.h\"\nint main()\n{\n\t\n\tprintf(\"hello world!\\n\");\n\treturn 0;\n}",
+			"file": "/F/program/c_cpp/jianjiefei.c",
+			"file_size": 76,
+			"file_write_time": 131984821869805371,
 			"settings":
 			{
-				"buffer_size": 454,
+				"buffer_size": 73,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
 	],
-	"build_system": "Packages/User/Python36.sublime-build",
+	"build_system": "Packages/C++/C Single File.sublime-build",
 	"build_system_choices":
 	[
 		[
@@ -110,6 +113,26 @@
 			[
 				"Packages/User/Python36.sublime-build",
 				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/C++/C Single File.sublime-build",
+				"Run"
 			]
 		],
 		[
@@ -261,7 +284,7 @@
 			]
 		]
 	],
-	"build_varint": "",
+	"build_varint": "Run",
 	"command_palette":
 	{
 		"height": 0.0,
@@ -269,7 +292,7 @@
 		"selected_items":
 		[
 			[
-				"package",
+				"Package Control: ",
 				"Package Control: Remove Package"
 			],
 			[
@@ -277,8 +300,8 @@
 				"Package Control: Install Package"
 			],
 			[
-				"Package Control: ",
-				"Package Control: Enable Package"
+				"package",
+				"Package Control: Remove Package"
 			],
 			[
 				"package control",
@@ -349,12 +372,11 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/F/github/coding_practice/tensorflow/tutorial1"
-	],
 	"file_history":
 	[
+		"/F/个人/todolist190322.md",
+		"/F/个人/沃尔玛购买清单",
+		"/F/github/coding_practice/tensorflow/tutorial1/chapter5_4.py",
 		"/F/github/coding_practice/tensorflow/tutorial1/chapter5_3_2.py",
 		"/F/github/coding_practice/tensorflow/tutorial1/tutorial1.sublime-project",
 		"/C/Users/Juchuan/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
@@ -464,41 +486,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "chapter5_4.py",
+					"file": "/F/program/c_cpp/jianjiefei.c",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 454,
+						"buffer_size": 73,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								328,
-								328
+								33,
+								33
 							]
 						],
 						"settings":
 						{
-							"SL.61.region_keys":
-							[
-								"sublime_linter.protected_regions"
-							],
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/C++/C.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
