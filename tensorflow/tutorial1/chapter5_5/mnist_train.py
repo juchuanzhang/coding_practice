@@ -20,7 +20,7 @@ MODEL_NAME = "model.ckpt"
 def train(mnist):
     # 定义输入输出placeholder
     x = tf.placeholder(tf.float32, [None, mnist_inference.INPUT_NODE], name="x-input")
-    y_ = tf.placeholder(tf.float32, [None, mnist_inference.OUTPUT_NODE], name="y_input")
+    y_ = tf.placeholder(tf.float32, [None, mnist_inference.OUTPUT_NODE], name="y-input")
     regularizer = tf.contrib.layers.l2_regularizer(REGULARAZTION_RATE)
     # 直接使用mnist_inference.py中定义的前向传播过程。
     y = mnist_inference.inference(x, regularizer)
